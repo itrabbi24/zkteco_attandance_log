@@ -1,0 +1,18 @@
+# Visual Studio GitIgnore
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Properties Settings (If they contain secrets, it's better to exclude .user.config or similar)
+# But here we replaced them with dummies in the main config.
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Packages
+packages/
